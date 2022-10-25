@@ -36,18 +36,9 @@ export default {
         }
     },
     props: {
-        minSum: {
-            type: Number,
-            required: false,
-        },
-        maxSum: {
-            type: Number,
-            required: false,
-        },
-        step: {
-            type: Number,
-            required: false,
-        },
+        minSum: Number,
+        maxSum: Number,
+        step: Number
     }, 
     methods: {
         fillBg() {

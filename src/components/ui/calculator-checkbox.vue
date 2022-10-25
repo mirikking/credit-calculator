@@ -11,10 +11,7 @@ export default {
     name: "UiCheckbox",
     data() {
         return {
-            haveSalaryCard: {
-                type: Boolean,
-                default: false
-            }
+            haveSalaryCard: Boolean
         }
     },
     methods: {

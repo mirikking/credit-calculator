@@ -8,10 +8,7 @@
 export default {
     name: "UiSelect",
     props: {
-        credit_targets: {
-            type: Array,
-            default: [] 
-        }
+        credit_targets: Array<[]>
     },
     data() {
         return {
