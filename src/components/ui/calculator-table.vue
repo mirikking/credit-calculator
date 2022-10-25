@@ -13,10 +13,10 @@
           </tr>
           <tr align="center" class="table-payment-info" v-for="payment in this.payments">
             <td> {{ payment.date }} </td>
-            <td> {{ payment.payment.currentPay }} </td>
-            <td> {{ payment.payment.debtPercents }} </td>
-            <td> {{ payment.payment.mainDebt }} </td> 
-            <td> {{ payment.payment.remaining }}  </td>
+            <td> {{ Math.round(payment.payment.currentPay) }} </td>
+            <td> {{ Math.round(payment.payment.debtPercents) }} </td>
+            <td> {{ Math.round(payment.payment.mainDebt) }} </td> 
+            <td> {{ Math.round(payment.payment.remaining) }}  </td>
           </tr>
         </table>
       </div>
