@@ -1,4 +1,4 @@
-# [Link](https://credit-calculator-delta.vercel.app/) https://credit-calculator-delta.vercel.app/
+# Demo link - [click]https://credit-calculator-delta.vercel.app/
 
 ## Type Support for `.vue` Imports in TS
 
